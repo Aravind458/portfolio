@@ -99,7 +99,7 @@ const Hero = () => {
         {/* Social Icons */}
         <div className="flex justify-center space-x-6">
           {[
-            { Icon: Github, href: 'https://github.com/2211cs010458' },
+            { Icon: Github, href: 'https://github.com/Aravind458' },
             { Icon: Linkedin, href: 'https://www.linkedin.com/in/aravind-p-019737314/' },
             { Icon: Twitter, href: 'https://x.com/aravind_sagar87' },
             { Icon: Mail, href: 'mailto:sagararavind87@gmail.com' }

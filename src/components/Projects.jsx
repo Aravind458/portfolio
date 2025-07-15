@@ -6,24 +6,31 @@ const Projects = () => {
     {
       title: 'FuelX',
       description:
-        'Full-stack fuel delivery app with real-time tracking, secure payments, and admin management built using MERN stack.',
+        'A full-stack fuel delivery web app enabling users to request fuel with real-time delivery tracking. It supports secure online payments and includes a robust admin panel for order and user management. Built using the MERN stack.',
       technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'Stripe API'],
-      githubUrl: 'https://github.com/VarunHarinath/Arvind-Project--test_mode',
+      githubUrl: 'https://github.com/Aravind458/FuelX.git',
     },
     {
       title: 'Sports Facility Reservation System',
       description:
-        'Slot-based web system for booking sports facilities. Supports role-based authentication, real-time slot updates, and dashboard analytics.',
+        'A slot-based web application for booking sports facilities with real-time availability updates. It features role-based authentication for users and admins, ensuring secure access. Admin dashboard includes analytics for tracking bookings and user activity.',
       technologies: ['React.js', 'Express.js', 'MongoDB', 'Socket.io', 'Material-UI'],
       githubUrl: 'https://github.com/Aravind458/sportsfacility-reservation-system',
     },
     {
-      title: 'Portfolio Website',
+      title: 'Heart Disease Detection',
       description:
-        'A space-themed responsive portfolio built using React and Tailwind to showcase skills and projects interactively.',
-      technologies: ['React.js', 'JavaScript', 'Tailwind CSS', 'Lucide Icons'],
-      githubUrl: '#',
+        'This project is a Streamlit-based web app that predicts the risk of heart disease using machine learning. Users input medical data like age, cholesterol, and blood pressure to get instant predictions. Built using Python, Streamlit, and Scikit-learn, it aids in early diagnosis and preventive care.',
+      technologies: ['Python', 'Streamlit', 'Scikit-learn', 'Matplotlib', 'Seaborn'],
+      githubUrl: 'https://github.com/Aravind458/Heart-disease-detection.git',
     },
+    // {
+    //   title: 'Portfolio Website',
+    //   description:
+    //     'A space-themed responsive portfolio built using React and Tailwind to showcase skills and projects interactively.',
+    //   technologies: ['React.js', 'JavaScript', 'Tailwind CSS', 'Lucide Icons'],
+    //   githubUrl: '#',
+    // },
   ];
 
   return (
