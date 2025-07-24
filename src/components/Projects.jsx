@@ -25,7 +25,7 @@ const Projects = () => {
       githubUrl: 'https://github.com/Aravind458/Heart-disease-detection.git',
     },
     {
-      title: 'Portfolio Website',
+      title: 'Portfolio ',
       description:
         'A space-themed responsive portfolio built using React and Tailwind to showcase skills and projects interactively.',
       technologies: ['React.js', 'JavaScript', 'Tailwind CSS', 'Lucide Icons'],
