@@ -24,13 +24,13 @@ const Projects = () => {
       technologies: ['Python', 'Streamlit', 'Scikit-learn', 'Matplotlib', 'Seaborn'],
       githubUrl: 'https://github.com/Aravind458/Heart-disease-detection.git',
     },
-    // {
-    //   title: 'Portfolio Website',
-    //   description:
-    //     'A space-themed responsive portfolio built using React and Tailwind to showcase skills and projects interactively.',
-    //   technologies: ['React.js', 'JavaScript', 'Tailwind CSS', 'Lucide Icons'],
-    //   githubUrl: '#',
-    // },
+    {
+      title: 'Portfolio Website',
+      description:
+        'A space-themed responsive portfolio built using React and Tailwind to showcase skills and projects interactively.',
+      technologies: ['React.js', 'JavaScript', 'Tailwind CSS', 'Lucide Icons'],
+      githubUrl: 'https://github.com/Aravind458/portfolio',
+    },
   ];
 
   return (
