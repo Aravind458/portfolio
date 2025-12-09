@@ -48,8 +48,8 @@ const Hero = () => {
     doc.text("MERN Stack Developer", 20, 30);
     doc.setFontSize(12);
     doc.text("Email: sagararavind87@gmail.com", 20, 45);
-    doc.text("GitHub: github.com/2211cs010458", 20, 55);
-    doc.text("LinkedIn: linkedin.com/in/aravind-p-019737314/", 20, 65);
+    doc.text("GitHub: github.com/aravind458", 20, 55);
+    doc.text("LinkedIn: www.linkedin.com/in/aravind-pedhabudhi", 20, 65);
     doc.text("Skills: React.js, Node.js, Express.js, MongoDB, Tailwind CSS", 20, 80);
     doc.text("Projects: FuelX, Sports Facility Reservation, Portfolio", 20, 95);
     doc.save("Aravind_Resume.pdf");
@@ -100,7 +100,7 @@ const Hero = () => {
         <div className="flex justify-center space-x-6">
           {[
             { Icon: Github, href: 'https://github.com/Aravind458' },
-            { Icon: Linkedin, href: 'https://www.linkedin.com/in/aravind-p-019737314/' },
+            { Icon: Linkedin, href: 'www.linkedin.com/in/aravind-pedhabudhi' },
             { Icon: Twitter, href: 'https://x.com/aravind_sagar87' },
             { Icon: Mail, href: 'mailto:sagararavind87@gmail.com' }
           ].map(({ Icon, href }, index) => (
