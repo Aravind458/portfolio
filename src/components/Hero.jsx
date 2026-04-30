@@ -3,7 +3,7 @@ import { Github, Linkedin, Twitter, Mail, Download, MessageCircle } from 'lucide
 import jsPDF from 'jspdf';
 
 const Hero = () => {
-  const phrases = ['MERN Stack Developer', 'Tech Explorer'];
+  const phrases = ['MERN Stack Developer', 'Tech Explorer', 'Outsystem Developer'];
   const [text, setText] = useState('');
   const [index, setIndex] = useState(0); 
   const [charIndex, setCharIndex] = useState(0); 
