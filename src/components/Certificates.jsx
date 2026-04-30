@@ -43,6 +43,12 @@ const Certificates = () => {
       verifyUrl: "https://www.credly.com/badges/64694abd-8583-42c6-9691-79a36c336734/public_url",
       image: "/certificates/python.jpg",
     },
+    {
+      title: "SalesforceCertified AgentForce Specialist",
+      issuer: "salesforce Trailhead",
+      verifyUrl: "https://drive.google.com/file/d/1ACrF5sWEDCpAVPwTaS89EOJvTIlEV-2J/view",
+      image: "/certificates/SalesforceCertified AgentForce Specialist.jpg",
+    },
   ];
 
   const slideData = certificates.map((cert) => ({

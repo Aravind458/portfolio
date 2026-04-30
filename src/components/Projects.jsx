@@ -3,6 +3,22 @@ import { Github } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
+
+    {
+      title: 'Health Nova',
+      description:
+        'Health Nova demonstrates the power of AI in healthcare by enabling early detection and awareness. It acts as a first-level screening tool and encourages users to seek professional medical advice when necessary.',
+      technologies: ['Next.js', 'Django', 'Python', 'JavaScript', 'Machine Learning', 'SVM', 'KNN'],
+      githubUrl: 'https://github.com/Aravind458/Health-Nova',
+    },
+    {
+      title: 'Mockly',
+      description:
+        'Mockly is an AI-powered mock interview platform that simulates real-world technical interviews using voice interaction, dynamic question generation, and instant AI-driven feedback.',
+
+      technologies: ['Next.js', 'React', 'Cerebras Systems Llama', 'LiveKit', 'Cartesia'],
+      githubUrl: 'https://github.com/Aravind458/Mockly',
+    },
     {
       title: 'FuelX',
       description:
